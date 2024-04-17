@@ -1,0 +1,23 @@
+.calculator{
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input[type='text'],button{
+    padding: 10px;
+    margin: 5px;
+    width: calc(50%-50px);
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(85, 0, 255);
+    color: aliceblue;
+    border: none;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+

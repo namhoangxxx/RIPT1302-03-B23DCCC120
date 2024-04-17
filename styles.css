@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+  }
+  
+  .phone {
+    background-color: rgba(51, 17, 17, 0.516);
+    width: 375px;
+    height: 700px; 
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    position: relati;
+  }
+  
+  .status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 17px;
+   
+   
+    
+  }
+  
+ 
+  
+  .right {
+    width: 50px; 
+    height: 20px; 
+    background-color: #5618d2; 
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .screen {
+    background-color: #fff;
+    width: 100%;
+    height: calc(100% - 20px); /* Loại bỏ chiều cao của status bar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  
+  #clockImage {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  #timer {
+    font-size: 50px;
+    margin-bottom:25px;
+    outline: none;
+    border: none;
+    background: transparent;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 10px 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #ff0000;
+    border: none;
+    color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #00b342;
+  }
+  
+  .home-button {
+    width: 60px;
+    height: 60px;
+    background-color: #00000090;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 30px);
+  }
+  

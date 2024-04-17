@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đồng Hồ Báo Thức</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="status-bar">
+        <div class="left">
+          <span> 10:10 Viettel</span>
+        </div>
+        <div class="right">
+          <span>80%</span>
+    
+        </div>
+    </div>
+    <div class="screen">
+      <div class="container">
+        <img src="https://media.shopdongho.com/2021/01/karlsson-KA5751WH.jpg"  id="clockImage">
+        <div id="timer" contenteditable>00:00</div>
+        <div id="buttons">
+          <button id="startBtn">Start</button>
+          <button id="resetBtn" style="display: none;">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="home-button"></div>
+  </div>
+  <audio id="alarm" src="day di ong chau oi.mp3"></audio>
+  <script src="clock.js"></script>
+</body>
+</html>
